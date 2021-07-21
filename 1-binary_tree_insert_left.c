@@ -3,6 +3,7 @@
 * binary_tree_insert_left - insert the node to left
 * @parent: pointer to parent
 * @value: value of node
+* Return: pointer to new node
 */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
