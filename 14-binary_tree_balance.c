@@ -1,13 +1,12 @@
 #include "binary_trees.h"
 
-/**
- * binary_tree_balance
- * 
- * 
- * 
- */
 size_t altura(const binary_tree_t *tree);
-
+/**
+ * binary_tree_balance - check if a tree is balanced
+ * @tree: pointer to the node
+ *
+ * Return: the balance factor of a binary tree
+ */
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	if (!tree)
@@ -16,9 +15,9 @@ int binary_tree_balance(const binary_tree_t *tree)
 }
 
 /**
-* _height - measures the height of a binary tree
+* altura - measures the height of a binary tree
 * @tree: is a pointer to the root node of the tree to measure the height.
-* Return: rhe size of tree
+* Return: the size of tree
 */
 size_t altura(const binary_tree_t *tree)
 {
