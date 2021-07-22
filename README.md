@@ -11,3 +11,7 @@
 
 - Vanessa Garcia Vargas
 - Juan Felipe Prado Cruz
+
+## Resources
+
+https://en.wikipedia.org/wiki/Binary_tree
